@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Vasuki — Couture eyewear as wearable art. A jewellery house that makes sunglasses. Ornamented Vision. Regal Presence." />
+  <title>Vasuki — Ornamented Vision. Regal Presence.</title>
+  <link rel="icon" type="image/svg+xml" href="/vasuki/favicon.svg" />
+  <script type="module" crossorigin src="/vasuki/assets/index-D6uImux3.js"></script>
+  <link rel="stylesheet" crossorigin href="/vasuki/assets/index-DS9emegS.css">
+</head>
+<body>
+
+  <!-- PAGE LOADER -->
+  <div class="page-loader" id="pageLoader">
+    <svg viewBox="0 0 120 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path class="arc" d="M6,30 Q60,-18 114,30" stroke="#C9A84C" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+      <path class="arc" d="M6,30 Q60,78 114,30" stroke="#C9A84C" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+      <ellipse class="eye-center" cx="60" cy="30" rx="16" ry="10" fill="#8B1A1A"/>
+    </svg>
+  </div>
+
+  <!-- SCROLL PROGRESS -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- CUSTOM CURSOR -->
+  <div class="cursor-ring" id="cursorRing"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="navbar-left">
+      <img src="/vasuki/images/vasuki-logo.png" alt="Vasuki" class="navbar-logo-img" />
+      <span class="navbar-wordmark">vasuk<span class="bindi">i</span></span>
+    </div>
+    <div class="navbar-center">
+      <a href="#home">Home</a>
+      <a href="#collections">Collections</a>
+      <a href="#craft">Craft</a>
+      <a href="#world">World</a>
+      <a href="#bridal">Bridal</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="navbar-right">
+      <span class="pill-badge">Commissions Open</span>
+      <button class="hamburger" id="hamburgerBtn" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE NAV -->
+  <div class="mobile-nav" id="mobileNav">
+    <button class="mobile-nav-close" id="mobileNavClose">&times;</button>
+    <a href="#home">Home</a>
+    <a href="#collections">Collections</a>
+    <a href="#craft">Craft</a>
+    <a href="#world">World</a>
+    <a href="#bridal">Bridal</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <!-- SECTION 1: HERO -->
+  <section class="hero" id="home">
+    <canvas class="hero-canvas" id="heroCanvas"></canvas>
+    <div class="hero-content">
+      <div class="hero-logo">
+        <img src="/vasuki/images/vasuki-logo.png" alt="Vasuki Logo" class="hero-logo-img" />
+      </div>
+      <h1 class="hero-title" id="heroTitle">VASUKI</h1>
+      <p class="hero-tagline" id="heroTagline">Ornamented Vision. Regal Presence.</p>
+      <div class="hero-rule" id="heroRule"></div>
+      <p class="hero-subline" id="heroSubline">Couture Eyewear as Wearable Art</p>
+    </div>
+    <div class="scroll-indicator" id="scrollIndicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+    <div class="hero-marquee">
+      <div class="marquee-track">THE LOTUS &middot; THE ROSE VINE &middot; THE RUBY HEART &middot; THE FLAME &middot; THE ZARI CAT-EYE &middot; THE LOTUS &middot; THE ROSE VINE &middot; THE RUBY HEART &middot; THE FLAME &middot; THE ZARI CAT-EYE &middot; THE LOTUS &middot; THE ROSE VINE &middot; THE RUBY HEART &middot; THE FLAME &middot; THE ZARI CAT-EYE &middot; THE LOTUS &middot; THE ROSE VINE &middot; THE RUBY HEART &middot; THE FLAME &middot; THE ZARI CAT-EYE &middot;&nbsp;</div>
+    </div>
+  </section>
+
+  <!-- SEPARATOR -->
+  <div class="section-sep"><div class="sep-line"></div><svg viewBox="0 0 40 20" fill="none"><path d="M2,10 Q20,-6 38,10" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round" fill="none"/><path d="M2,10 Q20,26 38,10" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round" fill="none"/><ellipse cx="20" cy="10" rx="5" ry="3" fill="#8B1A1A"/></svg></div>
+
+  <!-- SECTION 2: COLLECTIONS -->
+  <section class="collections" id="collections">
+    <div class="collections-progress"><div class="collections-progress-bar" id="collectionsProgressBar"></div></div>
+    <div class="collections-header">
+      <h2>The Collections</h2>
+      <p>Five worlds. One vision.</p>
+    </div>
+    <div class="collections-pin" id="collectionsPin">
+      <div class="collections-track" id="collectionsTrack">
+
+        <!-- Card 1: The Lotus -->
+        <div class="collection-card">
+          <div class="card-image"><img src="/vasuki/images/products/the-lotus.jpg" alt="The Lotus" loading="lazy"/></div>
+          <div class="card-info">
+            <span class="card-num">01</span>
+            <h3>The Lotus</h3>
+            <p class="card-desc">Round oval frames crowned in gold lotus filigree, pink enamel petals unfurling at each temple, gold chain dangles tipped with lotus bud pendants.</p>
+            <div class="card-rule"></div>
+            <div class="card-tags"><span>Gold</span><span>Pink Enamel</span><span>Chain Dangles</span><span>Lotus Motif</span></div>
+            <p class="card-occasion">Occasion: Mehendi, Haldi</p>
+            <button class="card-cta">View Piece</button>
+          </div>
+        </div>
+
+        <!-- Card 2: The Rose Vine -->
+        <div class="collection-card">
+          <div class="card-image"><img src="/vasuki/images/products/the-rose-vine.jpg" alt="The Rose Vine" loading="lazy"/></div>
+          <div class="card-info">
+            <span class="card-num">02</span>
+            <h3>The Rose Vine</h3>
+            <p class="card-desc">Cat-eye almond frames wrapped in gold filigree vine, 3D cast metal red roses blooming at outer temples, black lens.</p>
+            <div class="card-rule"></div>
+            <div class="card-tags"><span>Gold Filigree</span><span>Cast Metal Roses</span><span>Black Lens</span></div>
+            <p class="card-occasion">Occasion: Cocktail, Reception</p>
+            <button class="card-cta">View Piece</button>
+          </div>
+        </div>
+
+        <!-- Card 3: The Ruby Heart -->
+        <div class="collection-card">
+          <div class="card-image"><img src="/vasuki/images/products/the-ruby-heart.jpg" alt="The Ruby Heart" loading="lazy"/></div>
+          <div class="card-info">
+            <span class="card-num">03</span>
+            <h3>The Ruby Heart</h3>
+            <p class="card-desc">Heart-shaped frames with continuous ruby-set rim, dark red gradient lens, hanging red teardrop bead pendants.</p>
+            <div class="card-rule"></div>
+            <div class="card-tags"><span>Rubies</span><span>Heart Frame</span><span>Red Gradient</span><span>Bead Pendants</span></div>
+            <p class="card-occasion">Occasion: Reception, Valentine Editorial</p>
+            <button class="card-cta">View Piece</button>
+          </div>
+        </div>
+
+        <!-- Card 4: The Flame -->
+        <div class="collection-card">
+          <div class="card-image"><img src="/vasuki/images/products/the-flame.jpg" alt="The Flame" loading="lazy"/></div>
+          <div class="card-info">
+            <span class="card-num">04</span>
+            <h3>The Flame</h3>
+            <p class="card-desc">Sharp upswept wing silhouette, multi-layered gold blades with red enamel edges, 12 gold strand fringe dangles per lens each tipped in a red bead.</p>
+            <div class="card-rule"></div>
+            <div class="card-tags"><span>Gold Blades</span><span>Red Enamel</span><span>Fringe Dangles</span></div>
+            <p class="card-occasion">Occasion: Sangeet, Fashion Week</p>
+            <button class="card-cta">View Piece</button>
+          </div>
+        </div>
+
+        <!-- Card 5: The Zari Cat-Eye -->
+        <div class="collection-card">
+          <div class="card-image"><img src="/vasuki/images/products/the-zari-cat-eye.jpg" alt="The Zari Cat-Eye" loading="lazy"/></div>
+          <div class="card-info">
+            <span class="card-num">05</span>
+            <h3>The Zari Cat-Eye</h3>
+            <p class="card-desc">Angular cat-eye, upper lens in green-to-blue gradient glass, lower third in silk organza with gold zari embroidery, green gemstone rim, triple-strand white pearl dangles.</p>
+            <div class="card-rule"></div>
+            <div class="card-tags"><span>Zari Embroidery</span><span>Green Gemstone</span><span>Pearl Dangles</span><span>Organza</span></div>
+            <p class="card-occasion">Occasion: Destination Wedding, Resort Editorial</p>
+            <button class="card-cta">View Piece</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SEPARATOR -->
+  <div class="section-sep"><div class="sep-line"></div><svg viewBox="0 0 40 20" fill="none"><path d="M2,10 Q20,-6 38,10" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round" fill="none"/><path d="M2,10 Q20,26 38,10" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round" fill="none"/><ellipse cx="20" cy="10" rx="5" ry="3" fill="#8B1A1A"/></svg></div>
+
+  <!-- SECTION 3: CRAFT -->
+  <section class="craft" id="craft">
+    <div class="craft-header">
+      <h2>The Craft</h2>
+      <p>Every frame begins as raw metal. It ends as mythology.</p>
+    </div>
+    <div class="craft-content">
+      <div class="craft-images" id="craftImages">
+        <div class="craft-img active"><img src="/vasuki/images/products/the-flame.jpg" alt="The Frame — metalwork" loading="lazy"/></div>
+        <div class="craft-img"><img src="/vasuki/images/products/the-lotus.jpg" alt="The Enamel — fired pigment" loading="lazy"/></div>
+        <div class="craft-img"><img src="/vasuki/images/products/the-ruby-heart.jpg" alt="The Stone — gem setting" loading="lazy"/></div>
+        <div class="craft-img"><img src="/vasuki/images/products/the-rose-vine.jpg" alt="The Object — finished piece" loading="lazy"/></div>
+      </div>
+      <div class="craft-panels" id="craftPanels">
+        <div class="craft-panel" data-index="0">
+          <h3>The Frame</h3>
+          <p>Every Vasuki frame begins as raw gold-tone metal — cast, hammered, and hand-polished over three days until the surface holds light like still water. The silhouette is sculpted, not bent. Each curve is deliberate, each angle a quiet act of architecture.</p>
+        </div>
+        <div class="craft-panel" data-index="1">
+          <h3>The Enamel</h3>
+          <p>Pigment is mixed by hand and painted onto metal with brushes no wider than a lash. The piece is fired at extreme heat, fusing colour into surface until it becomes inseparable — a second skin of vermillion, blush, and sovereign gold that will never fade.</p>
+        </div>
+        <div class="craft-panel" data-index="2">
+          <h3>The Stone</h3>
+          <p>Rubies, pearls, and peridot are set one at a time into hand-carved bezels. Each stone is chosen not only for clarity but for character — the slight inclusions, the way light bends through an imperfect facet. Perfection is not the point. Presence is.</p>
+        </div>
+        <div class="craft-panel" data-index="3">
+          <h3>The Object</h3>
+          <p>Every piece leaves the atelier once. It arrives at you forever. What was metal and mineral is now mythology — a sculpture for the face, an heirloom before it is worn.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEPARATOR -->
+  <div class="section-sep"><div class="sep-line"></div><svg viewBox="0 0 40 20" fill="none"><path d="M2,10 Q20,-6 38,10" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round" fill="none"/><path d="M2,10 Q20,26 38,10" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round" fill="none"/><ellipse cx="20" cy="10" rx="5" ry="3" fill="#8B1A1A"/></svg></div>
+
+  <!-- SECTION 4: WORLD / LOOKBOOK -->
+  <section class="world" id="world">
+    <div class="world-header"><h2>The World of Vasuki</h2></div>
+    <div class="world-quote" id="worldQuote">The Vasuki woman is constructing her own mythology every time she gets dressed.</div>
+    <div class="world-grid">
+      <div class="world-grid-item"><img src="/vasuki/images/models/model-1.jpg" alt="Model wearing Vasuki" loading="lazy"/><div class="world-overlay"><span class="overlay-tag">Editorial</span><span class="overlay-caption">Tradition meets couture</span></div></div>
+      <div class="world-grid-item"><img src="/vasuki/images/products/the-flame.jpg" alt="The Flame" loading="lazy"/><div class="world-overlay"><span class="overlay-tag">The Flame</span><span class="overlay-caption">Movement in metal</span></div></div>
+      <div class="world-grid-item"><img src="/vasuki/images/models/model-2.jpg" alt="Model wearing Vasuki" loading="lazy"/><div class="world-overlay"><span class="overlay-tag">Campaign</span><span class="overlay-caption">The art of living boldly</span></div></div>
+      <div class="world-grid-item"><img src="/vasuki/images/products/the-ruby-heart.jpg" alt="The Ruby Heart" loading="lazy"/><div class="world-overlay"><span class="overlay-tag">The Ruby Heart</span><span class="overlay-caption">A love letter, worn</span></div></div>
+      <div class="world-grid-item"><img src="/vasuki/images/models/model-3.jpg" alt="Model wearing Vasuki" loading="lazy"/><div class="world-overlay"><span class="overlay-tag">The Zari Cat-Eye</span><span class="overlay-caption">Silk, glass, and sovereignty</span></div></div>
+      <div class="world-grid-item"><img src="/vasuki/images/products/the-rose-vine.jpg" alt="The Rose Vine" loading="lazy"/><div class="world-overlay"><span class="overlay-tag">The Rose Vine</span><span class="overlay-caption">Where garden meets gaze</span></div></div>
+      <div class="world-grid-item"><img src="/vasuki/images/models/model-4.jpg" alt="Model wearing Vasuki" loading="lazy"/><div class="world-overlay"><span class="overlay-tag">Lookbook</span><span class="overlay-caption">Regal presence, always</span></div></div>
+      <div class="world-grid-item"><img src="/vasuki/images/products/the-lotus.jpg" alt="The Lotus" loading="lazy"/><div class="world-overlay"><span class="overlay-tag">The Lotus</span><span class="overlay-caption">Sacred geometry, reimagined</span></div></div>
+      <div class="world-grid-item"><img src="/vasuki/images/products/the-zari-cat-eye.jpg" alt="The Zari Cat-Eye" loading="lazy"/><div class="world-overlay"><span class="overlay-tag">The Zari Cat-Eye</span><span class="overlay-caption">Every millimetre, considered</span></div></div>
+    </div>
+  </section>
+
+  <!-- SEPARATOR -->
+  <div class="section-sep"><div class="sep-line"></div><svg viewBox="0 0 40 20" fill="none"><path d="M2,10 Q20,-6 38,10" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round" fill="none"/><path d="M2,10 Q20,26 38,10" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round" fill="none"/><ellipse cx="20" cy="10" rx="5" ry="3" fill="#8B1A1A"/></svg></div>
+
+  <!-- SECTION 5: ABOUT -->
+  <section class="about" id="about">
+    <div class="about-bg"><img src="/vasuki/images/models/model-4.jpg" alt="Vasuki atelier" loading="lazy"/></div>
+    <div class="about-content">
+      <p class="about-label">The Name</p>
+      <p class="about-myth">Vasuki is the divine serpent who coils around Lord Shiva's neck — a symbol of power, beauty, mystery, and transformation. Vasuki is not an eyewear brand. It is a jewellery house that makes sunglasses.</p>
+      <div class="about-rule"></div>
+      <div class="beliefs">
+        <div class="belief">
+          <h3>Eyewear is jewellery.</h3>
+          <p>We do not design accessories. We design adornments — objects of reverence that elevate the face into an altar.</p>
+        </div>
+        <div class="belief">
+          <h3>Craft is currency.</h3>
+          <p>In a world of mass production, the hand-made is the ultimate luxury. Every hour invested in a frame is an hour of devotion.</p>
+        </div>
+        <div class="belief">
+          <h3>Fashion is self-mythology.</h3>
+          <p>What you wear is the story you tell the world before you speak. Vasuki is for those who choose to be unforgettable.</p>
+        </div>
+      </div>
+      <div class="about-logo">
+        <img src="/vasuki/images/vasuki-logo.png" alt="Vasuki" class="about-logo-img" />
+      </div>
+    </div>
+  </section>
+
+  <!-- SEPARATOR -->
+  <div class="section-sep"><div class="sep-line"></div><svg viewBox="0 0 40 20" fill="none"><path d="M2,10 Q20,-6 38,10" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round" fill="none"/><path d="M2,10 Q20,26 38,10" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round" fill="none"/><ellipse cx="20" cy="10" rx="5" ry="3" fill="#8B1A1A"/></svg></div>
+
+  <!-- SECTION 6: BRIDAL -->
+  <section class="bridal" id="bridal">
+    <div class="bridal-header"><h2>The Bridal Universe</h2></div>
+    <div class="bridal-timeline">
+      <div class="timeline-item">
+        <div class="timeline-node"></div>
+        <div class="timeline-card">
+          <p class="event-name">Mehendi</p>
+          <p class="collection-name">The Lotus</p>
+          <p class="event-desc">Gold lotus crowns and pink enamel petals catch the henna-stained light. The ceremony begins.</p>
+          <img src="/vasuki/images/products/the-lotus.jpg" alt="Mehendi" loading="lazy"/>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-node"></div>
+        <div class="timeline-card">
+          <p class="event-name">Haldi</p>
+          <p class="collection-name">The Lotus</p>
+          <p class="event-desc">Sun-drenched turmeric mornings call for gold that gleams brighter than the ceremony itself.</p>
+          <img src="/vasuki/images/sketches/sketch-lotus.jpg" alt="Haldi" loading="lazy"/>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-node"></div>
+        <div class="timeline-card">
+          <p class="event-name">Sangeet</p>
+          <p class="collection-name">The Flame</p>
+          <p class="event-desc">Gold blade wings and fringe dangles move with every beat — designed for the woman who commands the dance floor.</p>
+          <img src="/vasuki/images/products/the-flame.jpg" alt="Sangeet" loading="lazy"/>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-node"></div>
+        <div class="timeline-card">
+          <p class="event-name">Cocktail</p>
+          <p class="collection-name">The Rose Vine</p>
+          <p class="event-desc">Cast metal roses bloom at the temple. The evening belongs to you.</p>
+          <img src="/vasuki/images/products/the-rose-vine.jpg" alt="Cocktail" loading="lazy"/>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-node"></div>
+        <div class="timeline-card">
+          <p class="event-name">Reception</p>
+          <p class="collection-name">The Ruby Heart</p>
+          <p class="event-desc">Heart-shaped frames encrusted in rubies. A declaration of love, worn on the face.</p>
+          <img src="/vasuki/images/products/the-ruby-heart.jpg" alt="Reception" loading="lazy"/>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-node"></div>
+        <div class="timeline-card">
+          <p class="event-name">Destination / Pool</p>
+          <p class="collection-name">The Zari Cat-Eye</p>
+          <p class="event-desc">Silk organza, pearl dangles, and green gemstone rims — resort luxury distilled into a single frame.</p>
+          <img src="/vasuki/images/products/the-zari-cat-eye.jpg" alt="Destination" loading="lazy"/>
+        </div>
+      </div>
+    </div>
+    <div class="bridal-cta">
+      <p>Every frame. Every event. Made for the woman who cannot be forgotten.</p>
+      <button>Inquire About Bridal Commission</button>
+    </div>
+  </section>
+
+  <!-- SEPARATOR -->
+  <div class="section-sep"><div class="sep-line"></div><svg viewBox="0 0 40 20" fill="none"><path d="M2,10 Q20,-6 38,10" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round" fill="none"/><path d="M2,10 Q20,26 38,10" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round" fill="none"/><ellipse cx="20" cy="10" rx="5" ry="3" fill="#8B1A1A"/></svg></div>
+
+  <!-- SECTION 7: CONTACT -->
+  <section class="contact" id="contact">
+    <div class="contact-image"><img src="/vasuki/images/models/model-1.jpg" alt="Vasuki atelier" loading="lazy"/></div>
+    <div class="contact-form-wrap">
+      <h2>Commission Inquiry</h2>
+      <form id="contactForm" action="" novalidate>
+        <div class="form-group">
+          <input type="text" id="fullName" placeholder=" " required/>
+          <label for="fullName">Full Name</label>
+        </div>
+        <div class="form-group">
+          <input type="email" id="email" placeholder=" " required/>
+          <label for="email">Email</label>
+        </div>
+        <div class="form-group">
+          <select id="eventType" required>
+            <option value="" disabled selected hidden></option>
+            <option value="mehendi">Mehendi</option>
+            <option value="haldi">Haldi</option>
+            <option value="sangeet">Sangeet</option>
+            <option value="cocktail">Cocktail</option>
+            <option value="reception">Reception</option>
+            <option value="destination">Destination Wedding</option>
+            <option value="editorial">Editorial / Campaign</option>
+            <option value="other">Other</option>
+          </select>
+          <label for="eventType">Event Type</label>
+        </div>
+        <div class="form-group">
+          <input type="date" id="eventDate" placeholder=" "/>
+          <label for="eventDate">Event Date</label>
+        </div>
+        <div class="form-group">
+          <label style="position:relative;top:0;opacity:1;font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:#C9A84C;pointer-events:auto;">Collection Interest</label>
+          <div class="collection-pills" id="collectionPills">
+            <button type="button" class="pill" data-collection="the-lotus">The Lotus</button>
+            <button type="button" class="pill" data-collection="the-rose-vine">The Rose Vine</button>
+            <button type="button" class="pill" data-collection="the-ruby-heart">The Ruby Heart</button>
+            <button type="button" class="pill" data-collection="the-flame">The Flame</button>
+            <button type="button" class="pill" data-collection="the-zari">The Zari Cat-Eye</button>
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea id="customNotes" rows="4" placeholder=" "></textarea>
+          <label for="customNotes">Custom Notes</label>
+        </div>
+        <button type="submit" class="form-submit">Send Commission Inquiry</button>
+      </form>
+      <div class="form-success" id="formSuccess">
+        <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="40" cy="40" r="36" stroke="#C9A84C" stroke-width="2"/>
+          <path class="check-path" d="M24 40 L35 52 L56 28" stroke="#C9A84C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        </svg>
+        <p>We will be in touch. The atelier awaits.</p>
+      </div>
+      <div class="social-links">
+        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
+        <a href="#" aria-label="Pinterest"><svg viewBox="0 0 24 24"><path d="M12 0C5.373 0 0 5.372 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738a.36.36 0 01.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z"/></svg></a>
+        <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>&copy; 2025 Vasuki. All pieces are made to be owned once.</p>
+  </footer>
+
+</body>
+</html>
