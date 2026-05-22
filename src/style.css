@@ -167,7 +167,7 @@ img { display: block; max-width: 100%; }
 .world { position: relative; background: var(--royal-noir); padding: 120px 48px; }
 .world-header { text-align: center; margin-bottom: 60px; }
 .world-header h2 { font-family: var(--ff-heading); font-size: clamp(36px, 8vw, 80px); color: var(--sovereign-gold); clip-path: inset(0 100% 0 0); }
-.world-grid { columns: 3; column-gap: 0; }
+.world-grid { columns: 2; column-gap: 0; }
 .world-grid-item { break-inside: avoid; position: relative; overflow: hidden; line-height: 0; }
 .world-grid-item img { width: 100%; display: block; transition: transform 0.6s cubic-bezier(0.25,0.46,0.45,0.94); }
 .world-grid-item:hover img { transform: scale(1.04); }

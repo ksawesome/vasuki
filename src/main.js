@@ -148,8 +148,6 @@ function initHeroAnimations() {
   gsap.to('#heroTagline', { opacity: 1, duration: 0.8, delay: 2.8, ease: 'power2.out' });
   // Rule
   gsap.to('#heroRule', { opacity: 1, duration: 0.6, delay: 3.2, ease: 'power2.out' });
-  // Subline
-  gsap.to('#heroSubline', { opacity: 1, duration: 0.8, delay: 3.4, ease: 'power2.out' });
 }
 
 // ===== GOLD DUST ON HERO MOUSE MOVE =====
